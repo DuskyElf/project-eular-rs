@@ -1,7 +1,7 @@
 // Problem id 1
 // https://projecteuler.net/problem=1
 
-// this calculates the sum of all multiples of 3 or 5 between 1..n
+// This calculates the sum of all multiples of 3 or 5 between 1..n
 pub fn solution(n: u32) -> u32 {
     let mut result = 0;
     for num in 1..n {
