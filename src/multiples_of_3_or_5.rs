@@ -16,6 +16,6 @@ pub fn solution(n: u32) -> u32 {
 #[test]
 fn multiples_of_3_or_5() {
     assert_eq!(solution(10), 23);
-    assert_eq!(solution(1000), 0);
+    assert_eq!(solution(1000), 233168);
 }
 
