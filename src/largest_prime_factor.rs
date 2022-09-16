@@ -40,7 +40,7 @@ pub fn solution(mut n: u64) -> u64 {
 }
 
 #[test]
-fn largest_prime_factor() {
+fn testooooo() {
     assert_eq!(solution(13195), 29);
     assert_eq!(solution(600851475143), 6857);
 }

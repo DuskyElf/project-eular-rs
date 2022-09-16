@@ -26,7 +26,7 @@ pub fn solution(mut numbers: Vec<i32>, current: i32) -> i32 {
 }
 
 #[test]
-fn smallest_multiple() {
+fn testoooooooo() {
     assert_eq!(solution((1..10).rev().collect(), 1), 2520);
     assert_eq!(solution((1..20).rev().collect(), 1), 232792560);
 }

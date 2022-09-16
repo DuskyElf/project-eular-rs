@@ -23,7 +23,7 @@ pub fn solution(n: u32) -> u32 {
 }
 
 #[test]
-fn even_fibonacci_numbers() {
+fn testooo() {
     assert_eq!(solution(34), 44);
     assert_eq!(solution(4000000), 4613732)
 }

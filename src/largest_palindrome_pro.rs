@@ -38,7 +38,7 @@ fn is_palindrome(n: u32) -> bool {
 }
 
 #[test]
-fn largest_palindrome_pro() {
+fn testooo() {
     assert_eq!(solution(), 906609);
 }
 
