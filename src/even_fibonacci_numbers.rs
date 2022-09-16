@@ -7,17 +7,16 @@ pub fn solution(n: u32) -> u32 {
     let mut result = 0;
     let mut a = 1;
     let mut b = 2;
-    let mut _c = 0; // Named it with _ prefix, because the compiler was warning about it
     
     while a <= n {
         if a % 2 == 0 {
             result += a; // Adding the current even fib to the result
         }
-        _c = a + b; // Calculating future fib from older fibs
+        let c = a + b; // Calculating future fib from older fibs
 
         // Updating old fibs for next iteration
         a = b;
-        b = _c;
+        b = c;
     }
 
     result
