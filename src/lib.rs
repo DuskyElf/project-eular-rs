@@ -5,3 +5,4 @@ pub mod even_fibonacci_numbers; // Id 2
 pub mod largest_prime_factor;   // Id 3
 pub mod largest_palindrome_pro; // Id 4
 pub mod smallest_multiple;      // Id 5
+pub mod sum_square_difference;  // Id 6
