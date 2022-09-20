@@ -7,3 +7,4 @@ pub mod largest_palindrome_pro; // Id 4
 pub mod smallest_multiple;      // Id 5
 pub mod sum_square_difference;  // Id 6
 pub mod nth_prime;              // Id 7
+pub mod largest_product_nseries;// Id 8
