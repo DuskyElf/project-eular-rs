@@ -13,7 +13,7 @@ pub fn solution(n: u64) -> u64 {
     let mut trial = 3;
 
     // Trialing each number to be prime untill finding the nth prime
-    let mut i = 0;
+    let mut i = 1;
     while i != n {
         if new_is_prime(trial, &mut primes) {
             prime = trial;
@@ -26,16 +26,16 @@ pub fn solution(n: u64) -> u64 {
     prime
 }
 
-fn new_is_prime(n: u64, primes: &mut Vec<u64>) -> bool {
+pub fn new_is_prime(n: u64, primes: &mut Vec<u64>) -> bool {
     // Checking for each previous prime as it's factor
     // till n / 2, because prime factors of n never gonna be higher than n / 2
     for prime in primes.iter() {
-        if *prime >= n / 2 {
-            break;
-        }
-
         if n % *prime == 0 {
             return false;
+        }
+
+        if *prime >= n / 2 {
+            break;
         }
     }
 
